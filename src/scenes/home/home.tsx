@@ -1,6 +1,6 @@
 import useMediaQuery from "../../hooks/useMediaQuery"
 import { SelectedPage } from "../../shared/types"
-import ActionButton from "../../shared/ActionButton"
+
 import BigLogo from "../../assets/BigLogo.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import slogan from "../../assets/slogan.png";

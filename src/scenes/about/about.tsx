@@ -1,4 +1,4 @@
-import { PaperAirplaneIcon, ClipboardDocumentIcon, AcademicCapIcon, BookOpenIcon } from "@heroicons/react/24/solid"
+import { PaperAirplaneIcon, ClipboardDocumentIcon, AcademicCapIcon } from "@heroicons/react/24/solid"
 import { AboutType, SelectedPage } from "../../shared/types"
 import {motion} from "framer-motion"
 import HText from "../../shared/HText"
