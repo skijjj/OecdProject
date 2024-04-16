@@ -60,12 +60,8 @@ const About = ( { setSelectedPage }: Props) => {
          they offer to students.
         </p>
       </motion.div>
-      <motion.div 
-      className="mt-5 items-center justify-between gap-8 md:flex"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5}}
-      variants={container}>
+      <div 
+      className="mt-5 items-center justify-between gap-8 md:flex">
          {about.map((about: AboutType) => (
             <Aboutt
               key={about.title}
@@ -75,7 +71,7 @@ const About = ( { setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
           ))}
-      </motion.div>
+      </div>
 
       <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
         <img 
