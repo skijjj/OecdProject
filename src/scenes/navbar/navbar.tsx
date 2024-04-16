@@ -39,12 +39,22 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Education"
+                    page="Fear of Failure"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Contact"
+                    page="Growth & Fixed"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Resilience"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Fail Forward Week"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
@@ -86,12 +96,22 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Education"
+                    page="Fear of Failure"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Contact"
+                    page="Growth & Fixed"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Resilience"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Fail Forward Week"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />

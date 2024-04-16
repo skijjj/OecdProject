@@ -17,6 +17,7 @@ module.exports = {
         "white": "#FFFFFF",
         "blacky": "#181A1B",
         "maroi": "#181A1B",
+        "blueish": "#BBDCDA",
       },
       backgroundImage: (theme) => ({
         "gradient-yellowred":
@@ -28,7 +29,7 @@ module.exports = {
       },
       content: {
         evolvetext: "url('./assets/EvolveText.png')",
-        abstractwaves: "url('./assets/AbstractWaves.png')",
+        moisil: "url('./assets/moisil.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
       },
