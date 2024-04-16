@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <div className= "app bg-cover bg-[url('src/assets/download.jpg')] bg-blacky " >
+    <div className= "app bg-cover bg-[url('src/assets/download.jpg')] bg-bcg " >
       <Navbar 
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
