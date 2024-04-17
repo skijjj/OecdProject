@@ -1,7 +1,10 @@
 export enum SelectedPage {
     Home = "home",
     About = "about",
-    Education = "education",
+    FearOfFailure = "fearoffailure",
+    GrowthAndFixed = "growthandfixed",
+    Resilience = "resilience",
+    FailForwardWeek = "failforwardweek",
     Contact = "contact",
   
   }
@@ -12,3 +15,8 @@ export interface AboutType {
   description:string;
 }
   
+export interface ClassType {
+  name: string;
+  description?: string;
+  image: string;
+}

@@ -19,6 +19,7 @@ module.exports = {
         "maroi": "#181A1B",
         "blueish": "#BBDCDA",
         "bcg": "#709DA0",
+        "bcg2": "#4F7477",
       },
       backgroundImage: (theme) => ({
         "gradient-yellowred":

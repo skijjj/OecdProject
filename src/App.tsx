@@ -3,6 +3,7 @@ import Navbar from "./scenes/navbar/navbar";
 import { SelectedPage } from "./shared/types";
 import Home from "./scenes/home/home";
 import About from "./scenes/about/about"
+import FailForwardWeek from "./scenes/ffw/ffw";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Home setSelectedPage={setSelectedPage} />
       <div className="bg-bcg">
       <About setSelectedPage={setSelectedPage} />
+      <FailForwardWeek setSelectedPage={setSelectedPage} />
 
       </div>
     </div>
