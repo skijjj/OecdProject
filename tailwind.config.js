@@ -18,7 +18,7 @@ module.exports = {
         "blacky": "#181A1B",
         "maroi": "#181A1B",
         "blueish": "#BBDCDA",
-        "bcg": "#487578",
+        "bcg": "#709DA0",
       },
       backgroundImage: (theme) => ({
         "gradient-yellowred":
