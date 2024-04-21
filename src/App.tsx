@@ -4,6 +4,7 @@ import { SelectedPage } from "./shared/types";
 import Home from "./scenes/home/home";
 import About from "./scenes/about/about"
 import FailForwardWeek from "./scenes/ffw/ffw";
+import FearOfFailure from "./scenes/fof/fof";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <Home setSelectedPage={setSelectedPage} />
       <div className="bg-bcg">
       <About setSelectedPage={setSelectedPage} />
+      <FearOfFailure setSelectedPage={setSelectedPage} />
       <FailForwardWeek setSelectedPage={setSelectedPage} />
 
       </div>

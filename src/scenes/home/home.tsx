@@ -2,7 +2,6 @@ import useMediaQuery from "../../hooks/useMediaQuery"
 import { SelectedPage } from "../../shared/types"
 
 import BigLogo from "../../assets/BigLogo.png";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import slogan from "../../assets/slogan.png";
 import quote2 from "../../assets/quote2.png";
 import { motion } from "framer-motion";
@@ -62,16 +61,7 @@ const Home = ( {setSelectedPage} : Props) => {
                 visible: { opacity: 1, x: 0},
             }}
             >
-                {/* <ActionButton setSelectedPage={setSelectedPage}>
-                    Message us
-                </ActionButton> */}
-                <AnchorLink className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-                onClick={() => setSelectedPage(SelectedPage.Contact)}
-                href={`#${SelectedPage.Contact}`}
-                >
-                    {/* <p>Learn more</p> */}
-
-                </AnchorLink>
+                
             </motion.div>
         </div>
         <div className="flex basis-3/5 justify-center mx-8 md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
