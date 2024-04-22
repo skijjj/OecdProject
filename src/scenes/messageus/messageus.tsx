@@ -61,7 +61,7 @@ const MessageUs = ( {setSelectedPage}: Props) =>
             }}
           >
             <form
-            //   target="_blank"
+              target="_blank"
               onSubmit={onSubmit}
               action="https://formsubmit.co/4e120bfd0cce2f71e36c4924e05e8736"
               method="POST"
