@@ -6,7 +6,7 @@ import About from "./scenes/about/about"
 import FailForwardWeek from "./scenes/ffw/ffw";
 import FearOfFailure from "./scenes/fof/fof";
 import GrowthAndFixed from "./scenes/growthandfixed/growthandfixed";
-// import MessageUs from "./scenes/messageus/messageus";
+import MessageUs from "./scenes/messageus/messageus";
 
 function App() {
 
@@ -40,8 +40,7 @@ function App() {
       <FearOfFailure setSelectedPage={setSelectedPage} />
       <GrowthAndFixed setSelectedPage={setSelectedPage} />
       <FailForwardWeek setSelectedPage={setSelectedPage} />
-
-      {/* <MessageUs setSelectedPage={setSelectedPage} /> */}
+      <MessageUs setSelectedPage={setSelectedPage} />
 
       </div>
     </div>
