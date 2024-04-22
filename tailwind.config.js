@@ -18,6 +18,7 @@ module.exports = {
         "blacky": "#181A1B",
         "maroi": "#181A1B",
         "blueish": "#BBDCDA",
+        "blueish2": "#C9F1EF",
         "bcg": "#709DA0",
         "bcg2": "#4F7477",
       },

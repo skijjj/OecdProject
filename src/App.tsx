@@ -5,6 +5,8 @@ import Home from "./scenes/home/home";
 import About from "./scenes/about/about"
 import FailForwardWeek from "./scenes/ffw/ffw";
 import FearOfFailure from "./scenes/fof/fof";
+import GrowthAndFixed from "./scenes/growthandfixed/growthandfixed";
+// import MessageUs from "./scenes/messageus/messageus";
 
 function App() {
 
@@ -26,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <div className= "app bg-cover bg-[url('src/assets/download.jpg')] bg-bcg " >
+    <div className= "app bg-cover bg-bcg " >
       <Navbar 
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
@@ -36,7 +38,10 @@ function App() {
       <div className="bg-bcg">
       <About setSelectedPage={setSelectedPage} />
       <FearOfFailure setSelectedPage={setSelectedPage} />
+      <GrowthAndFixed setSelectedPage={setSelectedPage} />
       <FailForwardWeek setSelectedPage={setSelectedPage} />
+
+      {/* <MessageUs setSelectedPage={setSelectedPage} /> */}
 
       </div>
     </div>

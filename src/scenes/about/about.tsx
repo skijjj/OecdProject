@@ -103,14 +103,16 @@ const About = ( { setSelectedPage }: Props) => {
                 hidden: { opacity: 0, x: 50},
                 visible: { opacity: 1, x: 0},
             }}>
+              <p className="mb-5 text-2xl text-white">
+              WHAT IS IT?
+            </p>
             <p className="my-5 text-white">
-            WHAT IS IT?
             Fear of failure is something we all experience at one point or another. 
             It means being afraid not to succeed in the areas you want, 
             whether it is in an educational or social way, in the sports world or so on.
 
             </p>
-            <p className="mb-5 text-white">
+            <p className="mb-5 text-2xl text-white">
             NEGATIVE EFFECTS
             </p>
             <p className="mb-5 text-white">

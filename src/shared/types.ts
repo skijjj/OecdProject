@@ -5,7 +5,7 @@ export enum SelectedPage {
     GrowthAndFixed = "growthandfixed",
     Resilience = "resilience",
     FailForwardWeek = "failforwardweek",
-    Contact = "contact",
+    MessageUs = "messageus",
   
   }
 
@@ -13,6 +13,7 @@ export interface AboutType {
   icon: JSX.Element;
   title: string;
   description:string;
+  writing?:string;
 }
   
 export interface ClassType {
