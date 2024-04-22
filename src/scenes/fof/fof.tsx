@@ -86,15 +86,7 @@ const FearOfFailure = ( {setSelectedPage}: Props) => {
             </div>
           </div>
 
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once : true, amount: 0.5} }
-            transition={{ delay: 0.2, duration: 1 }}
-            variants={{
-                hidden: { opacity: 0, x: 50},
-                visible: { opacity: 1, x: 0},
-            }}>
+          <motion.div>
             <p className="my-5 text-2xl text-white"> REDEFINE FAILURE 
             </p>
             <p className="mb-5 text-white">
