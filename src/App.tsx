@@ -7,6 +7,7 @@ import FailForwardWeek from "./scenes/ffw/ffw";
 import FearOfFailure from "./scenes/fof/fof";
 import GrowthAndFixed from "./scenes/growthandfixed/growthandfixed";
 import MessageUs from "./scenes/messageus/messageus";
+import Resilience from "./scenes/resilience/resilience";
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
       <About setSelectedPage={setSelectedPage} />
       <FearOfFailure setSelectedPage={setSelectedPage} />
       <GrowthAndFixed setSelectedPage={setSelectedPage} />
+      <Resilience setSelectedPage={setSelectedPage} />
       <FailForwardWeek setSelectedPage={setSelectedPage} />
       <MessageUs setSelectedPage={setSelectedPage} />
 
