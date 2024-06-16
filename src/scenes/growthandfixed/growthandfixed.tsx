@@ -9,12 +9,12 @@ const growthandfixed: Array<AboutType> = [
     {
       icon: <ArrowTrendingUpIcon className="h-6 w-6 text-white" />,
       title: "Growth Mindset",
-      description:"1.	These people realize they are on a continuous learning journey throughout their life, in which it is normal to make a lot of mistakes. Their success comes from overcoming challenges. They understand the importance of getting out of their comfort zone with the risk of failing at first, but the reward of learning and becoming a better version of themselves. They can actively listen about their negative parts and what they do wrong and want to improve their behavior. ",
+      description:"These people realize they are on a continuous learning journey throughout their life, in which it is normal to make a lot of mistakes. Their success comes from overcoming challenges. They understand the importance of getting out of their comfort zone with the risk of failing at first, but the reward of learning and becoming a better version of themselves. They can actively listen about their negative parts and what they do wrong and want to improve their behavior. ",
     },
     {
       icon: <ArrowTrendingDownIcon className="h-6 w-6 text-white" />,
       title: "Fixed Mindset",
-      description:"1.	These people believe they are supposed to know how to do something perfectly from their first attempt. They do not allow themselves to make mistakes. Their success comes from validation, and it is more important than anything. They will never choose development, as that involves challenges and the possibility of failing at first. Therefore, they prefer being stuck at the same level, hoping this way their confidence won’t drop. ",
+      description:"These people believe they are supposed to know how to do something perfectly from their first attempt. They do not allow themselves to make mistakes. Their success comes from validation, and it is more important than anything. They will never choose development, as that involves challenges and the possibility of failing at first. Therefore, they prefer being stuck at the same level, hoping this way their confidence won’t drop. ",
     },
   
   ];

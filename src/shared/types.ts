@@ -6,6 +6,7 @@ export enum SelectedPage {
     Resilience = "resilience",
     FailForwardWeek = "failforwardweek",
     MessageUs = "messageus",
+    Footer = "footer",
   
   }
 

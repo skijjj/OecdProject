@@ -1,7 +1,7 @@
 import Link from "./Link";
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import Logo from "@/assets/LOGO.png";
+import LOGO from "../../assets/LOGO.png";
 import { SelectedPage } from "../../shared/types";
 import useMediaQuery from "../../hooks/useMediaQuery";
 
@@ -23,7 +23,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
     <div className = {`${navbarBackground}${flexBetween} fixed top-0 z-30 w-full py-6`}>
       <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
-            <img alt="logo" src={Logo} />
+            <img alt="logo" src={LOGO} />
 
             {isAboveMediumScreens ? (
               <div className={`${flexBetween} w-full`}>
@@ -39,6 +39,11 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
+                    page="Fail Forward Week"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
                     page="Fear of Failure"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
@@ -50,11 +55,6 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                   />
                   <Link
                     page="Resilience"
-                    selectedPage={selectedPage}
-                    setSelectedPage={setSelectedPage}
-                  />
-                  <Link
-                    page="Fail Forward Week"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
@@ -101,6 +101,11 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
+                    page="Fail Forward Week"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
                     page="Fear of Failure"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
@@ -112,11 +117,6 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                   />
                   <Link
                     page="Resilience"
-                    selectedPage={selectedPage}
-                    setSelectedPage={setSelectedPage}
-                  />
-                  <Link
-                    page="Fail Forward Week"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />

@@ -46,6 +46,12 @@ const About = ( { setSelectedPage }: Props) => {
                 hidden: { opacity: 0, x:-50},
                 visible: { opacity: 1, x: 0},
             }}>
+        <p className="my-7 text-sm">As four students from National College "Grigore Moisil" engaged in the OECD Infinity Project, our objective is to confront various educational obstacles present within our school environment. Toward this goal, we have organized a series of activities and events that address critical challenges such as the fear of failure, aggressive communication patterns, and the issue of cyberbullying. By drawing upon the expertise of trusted sources, including teachers, coaches, speakers, and professionals, we strive to empower our peers with the necessary knowledge and skills to achieve a safer and more informed future. </p>
+        <p className="my-7 text-sm">Our aim is to ensure that our fellow students are adequately prepared to face the realities of life beyond the classroom setting. 
+
+We invite you to explore our website and our Instagram (@eduforgrowth) where you can uncover more details about our initiative and go on this transformative journey alongside us. 
+
+ </p>
         <HText> FAIL, LEARN, GROW! </HText>
         <p className="my-7 text-sm ">
         Education comes in different shapes and sizes, offering something 
@@ -67,70 +73,7 @@ const About = ( { setSelectedPage }: Props) => {
           ))}
       </div>
 
-      <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
-        <img 
-          className="mx-auto"
-          alt="about-page-graphic"
-          src={tgth}
-        
-        />
-        <div>
-          <div className="relative">
-            <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-moisil text-white">
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once : true, amount: 0.5} }
-                transition={{ duration: 1 }}
-                variants={{
-                    hidden: { opacity: 0, x:50},
-                    visible: { opacity: 1, x: 0},
-                }}>
-                <HText>
-                  FEAR OF FAILURE, EFFECTS AND{" "}
-                  <span className="text-blueish">SOLUTIONS</span>
-                </HText>
-              </motion.div>
-            </div>
-          </div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once : true, amount: 0.5} }
-            transition={{ delay: 0.2, duration: 1 }}
-            variants={{
-                hidden: { opacity: 0, x: 50},
-                visible: { opacity: 1, x: 0},
-            }}>
-              <p className="mb-5 text-2xl text-white">
-              WHAT IS IT?
-            </p>
-            <p className="my-5 text-white">
-            Fear of failure is something we all experience at one point or another. 
-            It means being afraid not to succeed in the areas you want, 
-            whether it is in an educational or social way, in the sports world or so on.
-
-            </p>
-            <p className="mb-5 text-2xl text-white">
-            NEGATIVE EFFECTS
-            </p>
-            <p className="mb-5 text-white">
-              - losing opportunities because you're too afraid to even try
-            </p>
-            <p className="mb-5 text-white">
-            - low self-esteem, as you think you don’t have the skills to do something special
-            </p>
-            <p className="mb-5 text-white">
-            - overall poor well-being and a bad impact on mental health
-            </p>
-            <p className="mb-5 text-white">           
-            - stagnation as you don’t allow yourself to grow through challenges
-            </p>
-          </motion.div>
-
-        </div>
-      </div>
+      
     </motion.div>
   </section>
 }

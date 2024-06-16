@@ -25,7 +25,7 @@ const Resilience = ({setSelectedPage}: Props) => {
                 visible: { opacity: 1, x: 0},
             }}>
         <HText>
-                  <span className="text-blueish">RESILIENCE</span> : BOUNCING BACK FROM SETBACKS 
+                  <span className="text-blueish">RESILIENCE</span>: BOUNCING BACK FROM SETBACKS 
                 </HText>
         
       </motion.div>

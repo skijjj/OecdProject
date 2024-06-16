@@ -5,6 +5,7 @@ import activity3 from "../../assets/activity3.png";
 import activity4 from "../../assets/activity4.png";
 import activity5 from "../../assets/activity5.png";
 import activity6 from "../../assets/activity6.png";
+import board from "../../assets/board.png";
 import HText from "../../shared/HText"
 import { motion } from "framer-motion";
 import Class from "./Class";
@@ -38,6 +39,12 @@ const ffw: Array<ClassType> = [
         name: "Fail Forward Box",
         description: "The objectives of this initiative were diverse and included encouraging students to actively share their stories (even anonymously) and demonstrating that everyone faces fears and failures. Participants were invited to write texts about failures, lessons learned, and motivational quotes. This initiative provides an opportunity to share experiences and insights, contributing to the creation of a learning environment and mutual support within the academic community.",
         image: activity5,
+
+    },
+    {
+        name: "Fail Forward Board",
+        description: "The Fail Forward Board gathers motivational quotes, lessons, and thoughts on failure from students who attended our activities. This initiative encourages sharing experiences and insights, fostering a supportive and educational academic community.",
+        image: board,
 
     },
     {

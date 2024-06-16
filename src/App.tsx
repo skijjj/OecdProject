@@ -8,6 +8,7 @@ import FearOfFailure from "./scenes/fof/fof";
 import GrowthAndFixed from "./scenes/growthandfixed/growthandfixed";
 import MessageUs from "./scenes/messageus/messageus";
 import Resilience from "./scenes/resilience/resilience";
+import Footer from "./scenes/footer/footer";
 
 function App() {
 
@@ -38,12 +39,12 @@ function App() {
       <Home setSelectedPage={setSelectedPage} />
       <div className="bg-bcg">
       <About setSelectedPage={setSelectedPage} />
+      <FailForwardWeek setSelectedPage={setSelectedPage} />
       <FearOfFailure setSelectedPage={setSelectedPage} />
       <GrowthAndFixed setSelectedPage={setSelectedPage} />
       <Resilience setSelectedPage={setSelectedPage} />
-      <FailForwardWeek setSelectedPage={setSelectedPage} />
       <MessageUs setSelectedPage={setSelectedPage} />
-
+      <Footer />
       </div>
     </div>
   )
