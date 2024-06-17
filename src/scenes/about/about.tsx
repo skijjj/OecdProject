@@ -3,7 +3,6 @@ import { AboutType, SelectedPage } from "../../shared/types"
 import {motion} from "framer-motion"
 import HText from "../../shared/HText"
 import Aboutt from "./Aboutt"
-import tgth from "../../assets/tgth.png";
 
 const about: Array<AboutType> = [
   {
