@@ -7,6 +7,7 @@ export enum SelectedPage {
     FailForwardWeek = "failforwardweek",
     MessageUs = "messageus",
     Footer = "footer",
+    NewPage = "newpage",
   
   }
 

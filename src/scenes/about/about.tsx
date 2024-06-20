@@ -3,6 +3,7 @@ import { AboutType, SelectedPage } from "../../shared/types"
 import {motion} from "framer-motion"
 import HText from "../../shared/HText"
 import Aboutt from "./Aboutt"
+import team from "../../assets/team.png";
 
 const about: Array<AboutType> = [
   {
@@ -45,12 +46,21 @@ const About = ( { setSelectedPage }: Props) => {
                 hidden: { opacity: 0, x:-50},
                 visible: { opacity: 1, x: 0},
             }}>
+              <HText> MEET THE TEAM! </HText>
+        <img 
+                  className="mx-auto my-7"
+                  alt="draw"
+                  src={team}
+                
+                />
         <p className="my-7 text-sm">As four students from National College "Grigore Moisil" engaged in the OECD Infinity Project, our objective is to confront various educational obstacles present within our school environment. Toward this goal, we have organized a series of activities and events that address critical challenges such as the fear of failure, aggressive communication patterns, and the issue of cyberbullying. By drawing upon the expertise of trusted sources, including teachers, coaches, speakers, and professionals, we strive to empower our peers with the necessary knowledge and skills to achieve a safer and more informed future. </p>
         <p className="my-7 text-sm">Our aim is to ensure that our fellow students are adequately prepared to face the realities of life beyond the classroom setting. 
 
 We invite you to explore our website and our Instagram (@eduforgrowth) where you can uncover more details about our initiative and go on this transformative journey alongside us. 
 
  </p>
+        
+
         <HText> FAIL, LEARN, GROW! </HText>
         <p className="my-7 text-sm ">
         Education comes in different shapes and sizes, offering something 

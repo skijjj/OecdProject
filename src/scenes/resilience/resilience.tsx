@@ -38,6 +38,7 @@ const Resilience = ({setSelectedPage}: Props) => {
                 hidden: { opacity: 0, x: -50},
                 visible: { opacity: 1, x: 0},
             }}>
+
             <p className="mb-5 text-white">
             Have you ever felt the weight of fear bearing down on you as you face a daunting exam or assignment? You're not alone. Fear of failure is a common struggle among students, but the good news is that resilience can help us overcome it.
             </p>

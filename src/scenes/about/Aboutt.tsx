@@ -31,7 +31,7 @@ const Aboutt = ({ icon,title,description,setSelectedPage} : Props) => {
                 onClick={() => setSelectedPage(SelectedPage.MessageUs)}
                 href={`#${SelectedPage.MessageUs}`}
         >
-
+          <p>Find out more about us</p>
         </AnchorLink>
     </motion.div>
   )

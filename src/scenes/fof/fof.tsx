@@ -91,7 +91,7 @@ const FearOfFailure = ( {setSelectedPage}: Props) => {
 
         </div>
       </div>
-      <HText> What causes fear of failure? </HText>
+      
         
       </motion.div>
       <motion.div
@@ -103,6 +103,7 @@ const FearOfFailure = ( {setSelectedPage}: Props) => {
                 hidden: { opacity: 0, x: -50},
                 visible: { opacity: 1, x: 0},
             }}>
+              <HText> What causes fear of failure? </HText>
             <p className="my-5 text-2xl text-white"> PERFECTIONISM
             </p>
             <p className="mb-5 text-white">

@@ -8,6 +8,7 @@ import activity6 from "../../assets/activity6.png";
 import board from "../../assets/board.png";
 import HText from "../../shared/HText"
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";  // Import Link
 import Class from "./Class";
 
 const ffw: Array<ClassType> = [
@@ -84,6 +85,9 @@ Through events like workshops and open discussions,
 we aim to promote students' personal growth, confidence, and stress management skills.</p>
 
             </motion.div>
+            {/* <Link to="/newpage" className="text-blue-500 underline">
+          Go to New Page
+        </Link> */}
 
             {/*slide thing*/}
             <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
