@@ -67,7 +67,7 @@ const GrowthAndFixed = ( {setSelectedPage}: Props) => {
           alt="draw"
           src={growth}
         
-        />
+        />  
         <div 
       className="mt-5 items-center justify-between gap-8 md:flex">
          {growthandfixed.map((about: AboutType) => (
