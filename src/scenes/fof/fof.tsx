@@ -27,16 +27,16 @@ const FearOfFailure = ( {setSelectedPage}: Props) => {
                 visible: { opacity: 1, x: 0},
             }}>
         
-      <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
+        <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
         <img 
           className="mx-auto"
-          alt="about-page-graphic"
+          alt="draw"
           src={tgth}
         
         />
         <div>
           <div className="relative">
-            <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-moisil text-white">
+            <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] text-white">
               <motion.div
                 initial="hidden"
                 whileInView="visible"

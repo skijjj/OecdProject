@@ -22,4 +22,5 @@ export interface ClassType {
   name: string;
   description?: string;
   image: string;
+  link: string;
 }

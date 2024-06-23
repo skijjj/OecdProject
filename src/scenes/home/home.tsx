@@ -1,6 +1,5 @@
 import useMediaQuery from "../../hooks/useMediaQuery"
 import { SelectedPage } from "../../shared/types"
-
 import BigLogo from "../../assets/BigLogo.png";
 import slogan from "../../assets/slogan.png";
 import quote2 from "../../assets/quote2.png";

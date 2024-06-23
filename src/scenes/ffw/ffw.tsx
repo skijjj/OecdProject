@@ -9,47 +9,55 @@ import board from "../../assets/board.png";
 import HText from "../../shared/HText"
 import { motion } from "framer-motion";
 import Class from "./Class";
+import { Link } from "react-router-dom";
 
 const ffw: Array<ClassType> = [
     {
         name: "Open Talk",
-        description: "The purpose of this event was to identify and address issues related to students' fear of failure, to encourage public speaking, and to promote an environment where they can learn from each other based on personal experiences. The program includes various activities, starting with presenting famous examples of failures or mistakes, continuing with sharing personal stories, and ending with discussions about resilience techniques and healthy approaches to managing and overcoming obstacles.",
+        description: "The purpose of this event was to identify and address issues related to students' fear of failure, to encourage public speaking, and to promote an environment where they can learn from each other based on personal experiences. It started with presenting famous examples of failures, and ending with discussions about resilience techniques.",
         image: activity1,
+        link: "/newpage",
 
     },
     {
         name: "Letters to Myself",
         description: "We wanted students to realize that they are not alone in facing their challenges. They understood that the seemingly enormous obstacles they faced were not as difficult to overcome and that ultimately, these would have disappeared without considerable efforts on their part. ",
         image: activity2,
+        link: "/newpage",
 
     },
     {
         name: "Fixed vs Growth Mindset",
-        description: "Providing participants with the opportunity to learn how to approach various challenges and failures in a constructive and efficient manner. Activities included presenting scenarios for improvement and resolution, as well as informing about the concepts of growth mindset and fixed mindset. At the end of the session, a debate and a question-and-answer session had been organized to ensure a deep understanding of the subject. It is important to remember that success is achieved when you push your fears and limits.",
+        description: "Providing participants with the opportunity to learn how to approach challenges and failures in an efficient manner. Activities included presenting scenarios for improvemen, as well as informing about the concepts of growth mindset and fixed mindset.",
         image: activity3,
+        link: "/newpage",
 
     },
     {
         name: "Try Something New",
         description: "We aimed to encourage students to push beyond the boundaries of their comfort zones, to discover new areas of interest, to approach change with courage and confidence, to develop their ability to adapt to a variety of contexts, and to adopt a receptive and open mindset, akin to that of a beginner.",
         image: activity4,
+        link: "/newpage",
 
     },
     {
         name: "Fail Forward Box",
-        description: "The objectives of this initiative were diverse and included encouraging students to actively share their stories (even anonymously) and demonstrating that everyone faces fears and failures. Participants were invited to write texts about failures, lessons learned, and motivational quotes. This initiative provides an opportunity to share experiences and insights, contributing to the creation of a learning environment and mutual support within the academic community.",
+        description: "The objectives of this initiative were diverse and included encouraging students to actively share their stories (even anonymously) and demonstrating that everyone faces fears and failures. Participants were invited to write texts about failures, lessons learned, and motivational quotes.",
         image: activity5,
+        link: "/newpage",
 
     },
     {
         name: "Fail Forward Board",
         description: "The Fail Forward Board gathers motivational quotes, lessons, and thoughts on failure from students who attended our activities. This initiative encourages sharing experiences and insights, fostering a supportive and educational academic community.",
         image: board,
+        link: "/newpage",
 
     },
     {
         name: "Co-Agency",
         image: activity6,
+        link: "/newpage",
 
     },
 
@@ -82,6 +90,9 @@ const FailForwardWeek = ( {setSelectedPage}: Props) => {
 We noticed a lack of structured communication regarding anxiety in school counseling, so we organized a week of activities to address this gap. 
 Through events like workshops and open discussions, 
 we aim to promote students' personal growth, confidence, and stress management skills.</p>
+                <Link to="/newpage" className="text-primary-500 hover:underline">
+                            READ MORE ABOUT OUR ACTIVITIES
+                        </Link>
 
             </motion.div>
 
@@ -94,6 +105,7 @@ we aim to promote students' personal growth, confidence, and stress management s
                         name={item.name}
                         description={item.description}
                         image={item.image}
+                        link={item.link}
                 />
                     ))}
 
