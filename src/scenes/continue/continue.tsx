@@ -33,7 +33,7 @@ const Continue = () => {
 
   return  <section
   id="growthandfixed"
-  className="mx-auto min-h-full w-full py-40 px-20  bg-bcg ">
+  className="mx-auto min-h-full w-full py-40 px-10  bg-bcg ">
       <motion.div 
         className="md:my-5 md:w-3/5 text-white"
         initial="hidden"
