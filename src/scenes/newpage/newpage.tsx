@@ -5,8 +5,13 @@ import act2 from "../../assets/act2.png";
 import act3 from "../../assets/act3.png";
 import act4 from "../../assets/act4.png";
 import sboard from "../../assets/sboard.png";
+import { useEffect } from "react";
 
     const NewPage = () => {
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+          }, []);
     return <section id="newpage" className="w-full py-40 bg-bcg">
         <motion.div
         className="mx-auto w-5/6"

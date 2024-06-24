@@ -11,11 +11,10 @@ type Props = {
     icon: JSX.Element;
     title: string;
     description: string;
-    setSelectedPage: (value : SelectedPage) => void;
 }
 
 
-const Aboutt = ({ icon,title,description,setSelectedPage} : Props) => {
+const Aboutt = ({ icon,title,description } : Props) => {
   return (
     <motion.div 
     variants={childVariant}
@@ -27,12 +26,12 @@ const Aboutt = ({ icon,title,description,setSelectedPage} : Props) => {
         </div>
         <h4 className="font-bald text-white">{title}</h4>
         <p className="my-3 text-white">{description}</p>
-        <AnchorLink className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+        {/* <AnchorLink className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
                 onClick={() => setSelectedPage(SelectedPage.MessageUs)}
                 href={`#${SelectedPage.MessageUs}`}
         >
           <p>Find out more about us</p>
-        </AnchorLink>
+        </AnchorLink> */}
     </motion.div>
   )
 }

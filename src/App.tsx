@@ -6,11 +6,10 @@ import Home from "./scenes/home/home";
 import About from "./scenes/about/about";
 import FailForwardWeek from "./scenes/ffw/ffw";
 import FearOfFailure from "./scenes/fof/fof";
-import GrowthAndFixed from "./scenes/growthandfixed/growthandfixed";
 import MessageUs from "./scenes/messageus/messageus";
-import Resilience from "./scenes/resilience/resilience";
 import Footer from "./scenes/footer/footer";
 import NewPage from "./scenes/newpage/newpage";
+import Continue from "./scenes/continue/continue";
 
 const Main = ({ setSelectedPage }: { setSelectedPage: (value: SelectedPage) => void }) => {
   useEffect(() => {
@@ -31,8 +30,6 @@ const Main = ({ setSelectedPage }: { setSelectedPage: (value: SelectedPage) => v
       <About setSelectedPage={setSelectedPage} />
       <FailForwardWeek setSelectedPage={setSelectedPage} />
       <FearOfFailure setSelectedPage={setSelectedPage} />
-      <GrowthAndFixed setSelectedPage={setSelectedPage} />
-      <Resilience setSelectedPage={setSelectedPage} />
       <MessageUs setSelectedPage={setSelectedPage} />
       <Footer />
       </div>
@@ -54,7 +51,7 @@ const App = () => {
   }, []);
 
   const location = useLocation();
-  const showNavbar = location.pathname !== "/newpage";
+  const showNavbar = !["/newpage", "/continue"].includes(location.pathname);
 
   return (
     <div className="app bg-cover bg-bcg">
@@ -68,6 +65,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main setSelectedPage={setSelectedPage} />} />
         <Route path="/newpage" element={<NewPage />} />
+        <Route path="/continue" element={<Continue />} />
       </Routes>
     </div>
   );

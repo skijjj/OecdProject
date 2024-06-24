@@ -3,12 +3,20 @@ import draw from "../../assets/draw.png";
 import { motion } from "framer-motion";
 import HText from "../../shared/HText"
 import tgth from "../../assets/tgth.png";
+import { useNavigate } from "react-router-dom";
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
 const FearOfFailure = ( {setSelectedPage}: Props) => {
+
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate('/continue'); // Replace '/new-page' with your desired route
+  }
+
   return <section
   id="fearoffailure"
   className="mx-auto min-h-full w-5/6 py-20"> 
@@ -191,6 +199,14 @@ This being said, LET GO OF CONTROL, and FOCUS ON THE PRESENT MOMENT. Don’t ove
 
         </div>
       </div>
+
+      <div className="text-center mt-10">
+          <button 
+            onClick={handleButtonClick} 
+            className="px-4 py-2 bg-primary-500 text-white rounded">
+            FIND OUT ADDITIONAL INFO ABOUT TOPICS SUCH AS FIXED/ GROWTH MINDSET AND RESILIENCE TECHNIQUES →
+          </button>
+        </div>
     </motion.div>
   </section>
 };

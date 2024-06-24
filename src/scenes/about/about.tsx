@@ -77,7 +77,7 @@ We invite you to explore our website and our Instagram (@eduforgrowth) where you
               title={about.title}
               description={about.description}
               icon={about.icon}
-              setSelectedPage={setSelectedPage}
+              // setSelectedPage={setSelectedPage}
             />
           ))}
       </div>

@@ -8,6 +8,7 @@ export enum SelectedPage {
     MessageUs = "messageus",
     Footer = "footer",
     NewPage = "newpage",
+    Continue = "continue"
   
   }
 
