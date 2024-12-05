@@ -4,7 +4,6 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import LOGO from "../../assets/LOGO.png";
 import { SelectedPage } from "../../shared/types";
 import useMediaQuery from "../../hooks/useMediaQuery";
-// import { Link as RouterLink } from "react-router-dom";
 
 
 type Props = {
@@ -50,15 +49,21 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
+                    page="Interview"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Communication"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
                     page="Message Us"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
                 </div>
-                {/* <div className = {`${flexBetween} gap-8`}>
-                  <p>Sign in</p>
-                  <ActionButton setSelectedPage={setSelectedPage}>Become a member</ActionButton>
-                </div>  */}
               </div>
             ) : (
               <button
@@ -98,6 +103,16 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                   />
                   <Link
                     page="Fear of Failure"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Interview"
+                    selectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
+                  />
+                  <Link
+                    page="Communication"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
