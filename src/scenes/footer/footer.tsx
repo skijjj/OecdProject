@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="mt-16 basis-1/4 md:mt-0 text-white">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Instagram: https://www.instagram.com/eduforgrowth/</p>
+          <p className="my-5">Instagram: https://www.instagram.com/eduforgrowth/   @eduforgrowth</p>
           <p>educationforgrowth.com@gmail.com</p>
         </div>
     </div>
