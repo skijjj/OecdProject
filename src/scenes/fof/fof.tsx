@@ -14,7 +14,7 @@ const FearOfFailure = ( {setSelectedPage}: Props) => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate('/continue'); // Replace '/new-page' with your desired route
+    navigate('/continue'); 
   }
 
   return <section
@@ -25,7 +25,7 @@ const FearOfFailure = ( {setSelectedPage}: Props) => {
     onViewportEnter={() => setSelectedPage(SelectedPage.FearOfFailure)}
     >
       <motion.div 
-        className="md:my-5 md:w-3/5 text-white"
+        className="md:my-5  text-white"
         initial="hidden"
             whileInView="visible"
             viewport={{ once : true, amount: 0.5} }
@@ -182,7 +182,10 @@ const FearOfFailure = ( {setSelectedPage}: Props) => {
 Don't forget to CELEBRATE EVERY ACCOMPLISHMENT, even if it’s small
 
             </p>
-            <p className="my-5 text-2xl text-white"> YOLO (You Only Live Once) MINDSET 
+          </motion.div>
+        </div>
+      </div>
+      <p className="my-5 text-2xl text-white"> YOLO (You Only Live Once) MINDSET 
             </p>
             <p className="mb-5 text-white">
             Sometimes it is beneficial to have this kind of mindset, to stop being afraid of failing or embarrassing yourself. It can be a good starting point to being more FLEXIBLE and relaxed, realizing there is a day after the one in which you fail, and that the world doesn't stop there. 
@@ -194,11 +197,6 @@ This being said, LET GO OF CONTROL, and FOCUS ON THE PRESENT MOMENT. Don’t ove
             <p className="mb-5 text-white">
             Instead get out and learn how to shine!    
             </p>
-            
-          </motion.div>
-
-        </div>
-      </div>
 
       <div className="text-center mt-10">
           <button 
